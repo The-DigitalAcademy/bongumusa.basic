@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     margin: 0%;
@@ -237,7 +242,7 @@ textarea{
     resize: none;
     border-radius: 8px;
     border: none;
-    width: 105%;
+    width: 100%;
 }
 button{
     display: block;
@@ -248,12 +253,11 @@ button{
 }
 
 #contact{
-    margin-left: 300px;
     width: 40%;
     height: 700px;
     margin-top: 200px;
     padding: 20px;
-    /* left: -13px; */
+
 }
 
 .btnSubmit{
@@ -265,7 +269,6 @@ button{
 }
 
 #contact input{
-    /* border: #1e1e1e; */
     border: 2px;
     background-color: #e9c966;
     letter-spacing: 0.2px;
@@ -290,12 +293,12 @@ button{
     
 }
 article {
-    margin-top: 40px;
+    margin-top: 60px;
     float: right;
     padding: 20px;
     width: 40%;
     background-color: #f1f1f1;
-    height: 700px; 
+    height: 720px; 
     /* background-color: red; */
   }
   section::after {
@@ -306,5 +309,11 @@ article {
   .btnSubmit:hover{
     color: whitesmoke;
 
+  }
+
+  .formContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
