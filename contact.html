@@ -25,17 +25,18 @@
   </section>
 
   <div class="formContact">
-    <form id="contact" action="">
+    <form id="contact" action="https://formspree.io/f/xvoyzrkn"
+    method="POST">
       <label for="">NAME</label>
-      <input type="text" placeholder="e.g John">
+      <input type="text" placeholder="e.g John" required>
       <label for="">PHONE</label>
-      <input type="tel" maxlength="10" pattern="[0-9]{3}-[0-9]{3}">
+      <input type="tel" required>
       <label for="">EMAIL</label>
-      <input type="text" placeholder="e.g jsmith@gmail.com">
+      <input type="text" placeholder="e.g jsmith@gmail.com" required>
       <label for="">YOUR MESSAGE</label>
-      <textarea name="" id="" cols="12" rows="4" placeholder="typing a message...."></textarea>
+      <textarea required name="" id="" cols="12" rows="4" placeholder="typing a message...."></textarea>
       <!-- <button id="submit">SUBMIT</button> -->
-      <a href="" class="btnSubmit">SUBMIT</a>
+      <button style="background-color: black; border-radius: 4px;" type="submit">SUBMIT</button>
     </form>
   </div>
   <!-- Footer -->
